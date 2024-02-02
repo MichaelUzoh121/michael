@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    list-style: none;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.sidenav{
+    height: 100%;
+}ul{
+    height: 70%;
+}
+.home{
+    list-style: none;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-bottom: 5px solid gray;
+    height: 40%;
+    gap: 30px;
+
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+    
+}
+li{
+    margin-left: 30px;
+
+}
+.shift{
+    margin-bottom: 30px;
+}
+.home2{
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-bottom: 5px solid gray;
+    gap: 30px;
+    height: 40%;
+}
+.home3{
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    text-decoration: none;
+   
+    gap: 30px;
+   
+}
+.class2{
+    /* height: 30px; */
+    /* display: grid; */
+    margin-top: 20px;
+    margin-left: 30px;
+   
+}
+input{
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    height: 40px;
+    width: 70%;
+    border-bottom: 5px solid transparent;
+    border: none;
+}
+.school{
+  height: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.col{
+    background-color: blue;
+}
+</style>
+<body>
+    <div class="wrapper">
+        <div class="sidenav">
+            <ul>
+                <div class="home">
+                <li><a href="#">home</a></li>
+                <li><a href="#">shorts</a></li>
+                <li class="shift"><a href="#">subscription</a></li>
+                </div>
+
+                <div class="home2">
+                <li><a href="#">library</a></li>
+                <li><a href="#">history</a></li>
+                <li  class="shift"><a href="#">downloads</a></li>
+                </div>
+            
+
+                <div class="home3">
+                <li><a href="#">watch later</a></li>
+                <li><a href="#">trending</a></li>
+                <li  class="shift"><a href="#">news</a></li>
+                </div>
+            </ul>
+        </div>
+       
+
+        <div class="class2">
+            <input type="search" placeholder="search for anything">
+            <div class="school">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+            
+        </div>
+       
+       
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
